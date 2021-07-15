@@ -1,0 +1,16 @@
+rootProject.name = "My Application"
+
+include ':Screens'
+include ':Router'
+
+include ':TestScreenC'
+
+include ':project'
+include ':project:projecta'
+include ':project:projecta:app'
+include ':project:projecta:TestScreenA'
+include ':project:projecta:TestScreenB'
+include ':project:projecta:ProjectARouter'
+include ':RibRouter'
+include ':Common'
+include ':FragmentRib'

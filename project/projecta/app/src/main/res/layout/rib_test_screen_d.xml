@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rib_test_screen_d"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screen D Inside Fragment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/screenD_openScreenB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Screen B" />
+
+    <Button
+        android:id="@+id/screenD_openScreenE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Screen E" />
+
+    <FrameLayout
+        android:id="@+id/screenD_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
